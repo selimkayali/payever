@@ -1,0 +1,14 @@
+<div>
+  First Name:
+  <p>{{ user.data.first_name | json }}</p>
+  <hr />
+  Last Name:
+  <p>{{ user.data.last_name | json }}</p>
+  <hr />
+  Email:
+  <p>{{ user.data.email | json }}</p>
+  <hr />
+  Avatar:
+  <hr />
+  <img src="{{ user.data.avatar }}" />
+</div>
